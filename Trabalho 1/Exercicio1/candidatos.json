@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "nome": "Cabo Daciolo",
+        "propostas": [
+            " Valorizacao da Patria",
+            "Igualdade Formal Perante a Lei"
+        ],
+        "descricao": [
+            " Filiado: Patriota",
+            "Numero: 51",
+            "Vice: Professora Suelene Balduino (Patriota)"
+        ]
+    },
+    {
+        "id": 2,
+        "nome": "Fernando Haddad",
+        "propostas": [
+            " Adotar medidas para combater privilegios previdenciarios",
+            "Nova politica sobre drogas"
+        ],
+        "descricao": [
+            " Filiado: PT",
+            "Numero: 13",
+            "Vice: Manuela (PT)"
+        ]
+    },
+    {
+        "id": 3,
+        "nome": "Joao Amoedo",
+        "propostas": [
+            " Simplificacao da carga tributaria com a adocao do IVA",
+            "Privatizacao de todas as estatais"
+        ],
+        "descricao": [
+            " Filiado: NOVO",
+            "Numero: 30",
+            "Vice: Christian Lohbauer (NOVO)"
+        ]
+    },
+    {
+        "id": 4,
+        "nome": "Jair Bolsonaro",
+        "propostas": [
+            " Ampliar o número de escolas militares",
+            "Defende a adocao da educacao à distância"
+        ],
+        "descricao": [
+            " Filiado: PSL",
+            "Numero: 17",
+            "Vice: Hamilton Mourao (PRTB)"
+        ]
+    },
+    {
+        "id": 5,
+        "nome": "Marina Silva",
+        "propostas": [
+            " Politicas de mobilidade urbana com foco na baixa emissao de poluentes",
+            "Eliminacao das barreiras tarifarias e nao tarifarias para a importacao de equipamentos"
+        ],
+        "descricao": [
+            " Filiado: Rede",
+            "Numero: 18",
+            "Vice: Eduardo Jorge (PV)"
+        ]
+    }
+]
