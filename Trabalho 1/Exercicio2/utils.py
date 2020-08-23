@@ -16,8 +16,8 @@ def carregarQuestoes(id):
     questoesAux = carregarJSON()[id]
 
     alternativaString =  f'\n{questoesAux["id"]}°) {questoesAux["titulo"]}\n'
-    possiveisRespostas = questoesAux["possiveisRespostas"]
     respostaCorreta = questoesAux["respostaCorreta"]
+    possiveisRespostas = questoesAux["possiveisRespostas"]
 
     for alternativa in possiveisRespostas:
         alternativaString =  alternativaString +  f'\n{alternativa["numeroDeIdentificacao"]}) {alternativa["descricao"]}'

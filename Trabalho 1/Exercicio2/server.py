@@ -29,12 +29,12 @@ numeroDeQuestoes = numeroDeQuestoes()
 escolhasCliente = []
 respostasCorretas = []
 
-# Enviando a primeira pergunta
+# Enviando o numero de questões
 clienteSocket.send(numeroDeQuestoes.encode())
 
 for i in range(int(numeroDeQuestoes)):   
 
-    # Recebendo a questão e a resposta correta para a mesma
+    # Recebendo a pergunta e a resposta correta da questão
     questao, resposta = carregarQuestoes(i)
 
     # Enviando a questão para o cliente para que ele escolha uma alternativa
@@ -43,19 +43,18 @@ for i in range(int(numeroDeQuestoes)):
     # Aguardando escolha do cliente
     opcao = int(clienteSocket.recv(1024).decode())
 
-    print(f'Escolha = {opcao}')
-    print(f'Resposta = {resposta}')
-
-    # Adicionando as escolhas e as respostas os arrays correspondentes
+    # Adicionando as escolhas e as respostas aos arrays correspondentes
     escolhasCliente.append(opcao)
     respostasCorretas.append(resposta)
 
+# Comparando as escolhas do cliente com as respostas corretas
 resposta = comparar(escolhasCliente, respostasCorretas)
 
 # Enviando o gabarito 
 clienteSocket.send(resposta.encode())
 
-# Fechando conexão
+# Encerrando conexão
+print("Fechando conexão...")
 SocketServidor.close()
 
 
