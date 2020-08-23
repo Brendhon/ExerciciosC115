@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "questao": "Cabo Daciolo",
+        "possiveisRespostas": [
+            " Valorizacao da Patria",
+            "Igualdade Formal Perante a Lei"
+        ],
+        "respostaCorreta": " Filiado: Patriota"
+    },
+    {
+        "id": 2,
+        "questao": "Cabo Daciolo",
+        "possiveisRespostas": [
+            " Valorizacao da Patria",
+            "Igualdade Formal Perante a Lei"
+        ],
+        "respostaCorreta": " Filiado: Patriota"
+    }
+]
