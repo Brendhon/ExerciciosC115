@@ -15,7 +15,7 @@ serverPORT = 57000
 # Configuração da conexão
 clientSocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 clientSocket.connect((serverHOST,serverPORT))
-clientSocket.settimeout(10) 
+clientSocket.settimeout(100) 
 
 # Recebendo primeira pergunta
 msg = clientSocket.recv(1024).decode()

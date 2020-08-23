@@ -4,7 +4,7 @@ import json
 def carregarJSON():
 
     # Lendo o arquivo JSON com os candidatos
-    with open('candidatos.json') as json_data:
+    with open('candidates.json') as json_data:
         candidatos = json.load(json_data)
         json_data.close()
     

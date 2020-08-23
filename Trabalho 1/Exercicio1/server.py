@@ -22,7 +22,7 @@ PORT = 57000
 SocketServidor = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 SocketServidor.bind((HOST,PORT)) # Associando o servidor ao endereço e porta
 SocketServidor.listen(1) # Maximo um cliente na fila
-SocketServidor.settimeout(10) # Tempo de espera
+SocketServidor.settimeout(100) # Tempo de espera
 
 # Mensagens do Chatbot
 primeiraPergunta = mensagemInicial(candidatos)
@@ -46,13 +46,14 @@ opcao = clienteSocket.recv(1024).decode()
 
 if opcao == '1':
     # Trasformando a lista em String e a enviando codificada
-    clienteSocket.send('\n '.join(candidatos[candidatoEscolhido]['propostas']).encode())
+    clienteSocket.send('\n'.join(candidatos[candidatoEscolhido]['propostas']).encode())
 elif opcao == '2': 
     # Trasformando a lista em String e a enviando codificada
-    clienteSocket.send('\n '.join(candidatos[candidatoEscolhido]['descricao']).encode())
+    clienteSocket.send('\n'.join(candidatos[candidatoEscolhido]['descricao']).encode())
 
 # Enviando a mensagem de despedida
 clienteSocket.send(mensagemDespedida.encode())
         
 # Encerrando conexão
+print("Fechando conexão...")
 SocketServidor.close()
