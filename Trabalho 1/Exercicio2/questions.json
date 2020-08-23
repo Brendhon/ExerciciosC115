@@ -1,20 +1,71 @@
 [
     {
         "id": 1,
-        "questao": "Cabo Daciolo",
+        "titulo": "Qual o nome completo de Harry Potter?",
         "possiveisRespostas": [
-            " Valorizacao da Patria",
-            "Igualdade Formal Perante a Lei"
+            {
+                "numeroDeIdentificacao": 1,
+                "descricao": "Harry Tiago Potter"
+            },
+            {
+                "numeroDeIdentificacao": 2,
+                "descricao": "Harry Weasley Potter"
+            },
+            {
+                "numeroDeIdentificacao": 3,
+                "descricao": "Harry Severo Potter"
+            },
+            {
+                "numeroDeIdentificacao": 4,
+                "descricao": "Harry Bilius Potter"
+            }
         ],
-        "respostaCorreta": " Filiado: Patriota"
+        "respostaCorreta": 1
     },
     {
         "id": 2,
-        "questao": "Cabo Daciolo",
+        "titulo": "Qual foi a segunda Horcrux a ser destruida?",
         "possiveisRespostas": [
-            " Valorizacao da Patria",
-            "Igualdade Formal Perante a Lei"
+            {
+                "numeroDeIdentificacao": 1,
+                "descricao": "Medalhao de Salazar Slytherin"
+            },
+            {
+                "numeroDeIdentificacao": 2,
+                "descricao": "Anel de Servolo Gaunt"
+            },
+            {
+                "numeroDeIdentificacao": 3,
+                "descricao": "Diadema de Rowena Ravenclaw"
+            },
+            {
+                "numeroDeIdentificacao": 4,
+                "descricao": "Harry Potter"
+            }
         ],
-        "respostaCorreta": " Filiado: Patriota"
+        "respostaCorreta": 2
+    },
+    {
+        "id": 3,
+        "titulo": "Quais os apelidos dos marotos?",
+        "possiveisRespostas": [
+            {
+                "numeroDeIdentificacao": 1,
+                "descricao": "Almofadinhas, Rabicho, Ranhoso e Pontas"
+            },
+            {
+                "numeroDeIdentificacao": 2,
+                "descricao": "Almofadinhas, Ranhoso, Pontas e Aluado"
+            },
+            {
+                "numeroDeIdentificacao": 3,
+                "descricao": "Ranhoso, Pontas, Aluado e Rabicho"
+            },
+            {
+                "numeroDeIdentificacao": 4,
+                "descricao": "Aluado, Rabicho, Almofadinhas e Pontas"
+            }
+        ],
+        "respostaCorreta": 4
     }
 ]
