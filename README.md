@@ -9,5 +9,5 @@ Exercícios realizados para colocar em prática os conhecimentos adquiridos na d
 
 ### 2° Trabalho - Docker:
 * Exercício: Dockerizar uma aplicação. 
-  * Aplicação escolhida: Flappy Bird.
+  * Aplicação escolhida: [Calculadora](https://github.com/Brendhon/calculator-React).
  
