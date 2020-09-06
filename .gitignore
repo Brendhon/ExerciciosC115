@@ -131,6 +131,15 @@ dmypy.json
 # Documentos WORD
 /*/**.docx
 
+# Documentos .pdf
+/*/**.pdf
+
+# Documentos .tar
+/*/**.tar
+
+# Documentos .rar
+/*/**.rar
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
