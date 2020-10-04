@@ -1,5 +1,5 @@
 # Exercícios de C115
-Exercícios realizados para colocar em prática os conhecimentos adquiridos na diciplina de **C115** (Conceitos e Tecnologias para Dispositivos Conectados) durante a graduação em Engenharia de Computação pelo [Inatel](https://inatel.br/home/).
+Exercícios realizados para colocar em prática os conhecimentos adquiridos na disciplina de **C115** (Conceitos e Tecnologias para Dispositivos Conectados) durante a graduação em Engenharia de Computação pelo [Inatel](https://inatel.br/home/).
 
 ### 1° Trabalho - Programacão de sockets:
 * Exercício 1: Criar um programa chatbot que envia algumas mensagens para ajudar o cliente. 
